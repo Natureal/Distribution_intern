@@ -125,7 +125,7 @@ ${HADOOP_HOME}/tmp/dfs
 
 --> hp-stop
 
-二． Spark集群搭建
+#### 二． Spark集群搭建
 
 （1） 在每个节点上下载解压spark，在		/usr/local/spark-2.3.2
 
@@ -168,6 +168,6 @@ deepwork-2
 --> spark-stop
 
 
-Commands:
+#### 3. Commands:
 
 peng@tong-dl:~/CHEN_PENG_Projects/XGBoost/distributed_workshop/data$ hdfs dfs -put vec_train_data.csv /xgboost

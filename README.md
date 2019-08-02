@@ -1,4 +1,4 @@
-#### Document records
+### Document records
 
 - written during the internship in Hitachi Central Laboratory
 
@@ -12,7 +12,7 @@
 
 ---
 
-#### Problems in using Docker
+### Problems in using Docker
 
 **I. Building Docker Private Repository** ======================================
 
@@ -382,7 +382,7 @@ CMD SPARK_CLASSPATH="${SPARK_HOME}/jars/*" && \
 
 ---
 
-#### Problems in using Kubernetes
+### Problems in using Kubernetes
 
 **I. Submit Spark to Kubernetes**
 
@@ -437,7 +437,13 @@ Spark on Kubernetes 的优势：
 
 （6）强隔离性
 
-#### Features of HDFS
+**II. External Shuffle Device**
+
+[Official Referrence](https://github.com/apache-spark-on-k8s/spark/blob/branch-2.2-kubernetes/resource-managers/kubernetes/architecture-docs/external-shuffle-service.md)
+
+The shuffle service is responsible for persisting shuffle files beyond the lifetime of the executors, allowing the number of executors to scale up and down without losing computation.
+
+### Features of HDFS
 
 1. 概念
 

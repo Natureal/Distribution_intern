@@ -379,6 +379,11 @@ CMD SPARK_CLASSPATH="${SPARK_HOME}/jars/*" && \
 
 可以看到 spark-driver 和 spark-executor 继承自 spark-base。实际工程中，我通过两个新的 Dockerfile，建立了两个新镜像，一个 nvidia-spark-driver，一个 nvidia-spark-executor，分别是在算法模型的基础上构建 spark-driver 组件和 spark-executor 组件。
 
+**Notice:**
+
+这里需要注意的是，改变原镜像后需要重新使用 Dockerfile 进行 build。
+
+如果直接在nvidia/cuda:1026-cmd的基础上commit一个新镜像，比如nvidia/cuda:1026-cmd2，会丢失原有的CMD命令，导致spark无法运行。根本原因是Docker的commit机制不支持Dockerfile中CMD命令的迁移。
 
 ---
 

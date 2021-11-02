@@ -1,4 +1,4 @@
-![](imgs/workflow.png)
+![](imgs/workflow1.png)
 
 ### Document records
 

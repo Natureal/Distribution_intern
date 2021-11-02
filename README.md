@@ -1,3 +1,5 @@
+![](imgs/workflow.png)
+
 ### Document records
 
 - written during the internship in Hitachi Central Laboratory

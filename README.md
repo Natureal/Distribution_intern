@@ -1,3 +1,5 @@
+Please watch the [slides](https://github.com/Natureal/Distribution_intern/blob/master/CHEN_PENG_Hitachi_Presentation.pptx) if you're interested: 
+
 ![](imgs/workflow1.png)
 
 ### Document records

@@ -1,5 +1,4 @@
-#### Please watch the slides [Zero-shot & few-shot learning and when they meets scalability![image](https://github.com/Natureal/Distribution_intern/assets/7850087/f7fb7753-8c8c-4ff0-8ed5-2b2bf65e2ccf)
-](https://github.com/Natureal/Distribution_intern/blob/master/CHEN_PENG_Hitachi_Presentation.pptx) if you're interested: 
+#### Please watch the slides [Zero-shot & few-shot learning and when they meets scalability](https://github.com/Natureal/Distribution_intern/blob/master/CHEN_PENG_Hitachi_Presentation.pptx) if you're interested: 
 
 ---
 
